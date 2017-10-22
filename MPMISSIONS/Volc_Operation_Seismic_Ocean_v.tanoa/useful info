@@ -1,0 +1,45 @@
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "16Rnd_9x21_Mag";};
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+this addBackpack "B_ViperHarness_oli_F";
+for "_i" from 1 to 3 do {this addItemToBackpack "SatchelCharge_Remote_Mag";};
+this addHeadgear "H_HelmetB_Enh_tna_F";
+
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "muzzle_snds_L";
+this addWeapon "Binocular";
+
+
+
+
+
+
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 4 do {this addItemToUniform "16Rnd_9x21_Mag";};
+this addItemToUniform "30Rnd_556x45_Stanag";
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 2 do {this addItemToVest "30Rnd_556x45_Stanag";};
+for "_i" from 1 to 5 do {this addItemToVest "ACE_HuntIR_M203";};
+for "_i" from 1 to 5 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {this addItemToVest "UGL_FlareCIR_F";};
+for "_i" from 1 to 2 do {this addItemToVest "UGL_FlareWhite_F";};
+this addItemToVest "UGL_FlareGreen_F";
+this addBackpack "B_ViperHarness_oli_F";
+for "_i" from 1 to 3 do {this addItemToBackpack "SatchelCharge_Remote_Mag";};
+this addHeadgear "H_HelmetB_Enh_tna_F";

@@ -1,0 +1,321 @@
+comment "Exported from Arsenal by Volc";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "16Rnd_9x21_Mag";};
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+this addBackpack "B_ViperHarness_oli_F";
+for "_i" from 1 to 3 do {this addItemToBackpack "SatchelCharge_Remote_Mag";};
+this addHeadgear "H_HelmetB_Enh_tna_F";
+
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "muzzle_snds_L";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc148jem_1";
+this linkItem "NVGogglesB_grn_F";
+
+comment "Set identity";
+this setFace "GreekHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
+
+
+
+comment "Exported from Arsenal by Volc";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 4 do {this addItemToUniform "16Rnd_9x21_Mag";};
+this addItemToUniform "30Rnd_556x45_Stanag";
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 2 do {this addItemToVest "30Rnd_556x45_Stanag";};
+for "_i" from 1 to 5 do {this addItemToVest "ACE_HuntIR_M203";};
+for "_i" from 1 to 5 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {this addItemToVest "UGL_FlareCIR_F";};
+for "_i" from 1 to 2 do {this addItemToVest "UGL_FlareWhite_F";};
+this addItemToVest "UGL_FlareGreen_F";
+this addBackpack "B_ViperHarness_oli_F";
+for "_i" from 1 to 3 do {this addItemToBackpack "SatchelCharge_Remote_Mag";};
+this addHeadgear "H_HelmetB_Enh_tna_F";
+
+comment "Add weapons";
+this addWeapon "arifle_SPAR_01_GL_blk_F";
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "muzzle_snds_L";
+this addWeapon "Binocular";
+
+comment "Add items";
+this linkItem "tf_microdagr";
+this linkItem "tf_anprc148jem_1";
+this linkItem "NVGogglesB_grn_F";
+
+comment "Set identity";
+this setFace "GreekHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
+comment "Exported from Arsenal by Volc";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 2 do {this addItemToUniform "16Rnd_9x21_Mag";};
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 5 do {this addItemToVest "ACE_HuntIR_M203";};
+for "_i" from 1 to 3 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {this addItemToVest "UGL_FlareCIR_F";};
+for "_i" from 1 to 2 do {this addItemToVest "UGL_FlareWhite_F";};
+this addItemToVest "UGL_FlareGreen_F";
+this addBackpack "B_Carryall_oli";
+for "_i" from 1 to 5 do {this addItemToBackpack "150Rnd_556x45_Drum_Mag_F";};
+for "_i" from 1 to 5 do {this addItemToBackpack "150Rnd_556x45_Drum_Mag_Tracer_F";};
+this addHeadgear "H_HelmetB_Enh_tna_F";
+
+comment "Add weapons";
+this addWeapon "arifle_SPAR_02_blk_F";
+this addPrimaryWeaponItem "optic_Arco_blk_F";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "muzzle_snds_L";
+this addWeapon "Binocular";
+
+comment "Add items";
+
+comment "Set identity";
+this setFace "GreekHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
+
+
+
+
+comment "Exported from Arsenal by Volc";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "16Rnd_9x21_Mag";
+for "_i" from 1 to 2 do {this addItemToUniform "20Rnd_762x51_Mag";};
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 5 do {this addItemToVest "ACE_HuntIR_M203";};
+for "_i" from 1 to 3 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {this addItemToVest "UGL_FlareCIR_F";};
+for "_i" from 1 to 2 do {this addItemToVest "UGL_FlareWhite_F";};
+this addItemToVest "UGL_FlareGreen_F";
+this addBackpack "B_Carryall_oli";
+for "_i" from 1 to 11 do {this addItemToBackpack "20Rnd_762x51_Mag";};
+this addHeadgear "H_Booniehat_tna_F";
+
+comment "Add weapons";
+this addWeapon "arifle_SPAR_03_blk_F";
+this addPrimaryWeaponItem "optic_Nightstalker";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "muzzle_snds_L";
+this addWeapon "Binocular";
+
+comment "Add items";
+
+comment "Set identity";
+this setFace "GreekHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
+
+
+comment "Exported from Arsenal by Volc";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_2_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "16Rnd_9x21_Mag";
+for "_i" from 1 to 2 do {this addItemToUniform "30Rnd_556x45_Stanag";};
+this addItemToUniform "rhs_m72a7_mag";
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 5 do {this addItemToVest "ACE_HuntIR_M203";};
+for "_i" from 1 to 3 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {this addItemToVest "UGL_FlareCIR_F";};
+for "_i" from 1 to 2 do {this addItemToVest "UGL_FlareWhite_F";};
+this addItemToVest "UGL_FlareGreen_F";
+this addItemToVest "30Rnd_556x45_Stanag";
+this addBackpack "B_Carryall_oli";
+this addHeadgear "H_HelmetB_tna_F";
+
+comment "Add weapons";
+this addWeapon "arifle_SPAR_01_blk_F";
+this addPrimaryWeaponItem "optic_Nightstalker";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addWeapon "rhs_weap_m72a7";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "muzzle_snds_L";
+this addWeapon "Binocular";
+
+comment "Add items";
+
+comment "Set identity";
+this setFace "GreekHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
+
+
+comment "Exported from Arsenal by Volc";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_2_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "16Rnd_9x21_Mag";
+for "_i" from 1 to 2 do {this addItemToUniform "30Rnd_556x45_Stanag";};
+this addItemToUniform "rhs_m72a7_mag";
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 5 do {this addItemToVest "B_IR_Grenade";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_red";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_blue";};
+for "_i" from 1 to 5 do {this addItemToVest "ACE_HuntIR_M203";};
+for "_i" from 1 to 3 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {this addItemToVest "UGL_FlareCIR_F";};
+for "_i" from 1 to 2 do {this addItemToVest "UGL_FlareWhite_F";};
+this addItemToVest "UGL_FlareGreen_F";
+this addItemToVest "30Rnd_556x45_Stanag";
+this addBackpack "B_Carryall_oli";
+this addHeadgear "H_HelmetB_Light_tna_F";
+this addGoggles "Mask_M40";
+
+comment "Add weapons";
+this addWeapon "arifle_SPAR_01_blk_F";
+this addPrimaryWeaponItem "optic_Nightstalker";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addWeapon "rhs_weap_m72a7";
+this addWeapon "hgun_P07_F";
+this addHandgunItem "muzzle_snds_L";
+this addWeapon "Binocular";
+
+comment "Add items";
+
+comment "Set identity";
+this setFace "GreekHead_A3_03";
+this setSpeaker "ACE_NoVoice";
+
+
+
+
+comment "Exported from Arsenal by Volc";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_I_C_Soldier_Para_1_F";
+this addItemToUniform "50Rnd_570x28_SMG_03";
+this addBackpack "ace_gunbag";
+
+comment "Add weapons";
+this addWeapon "SMG_03C_camo";
+this addWeapon "Laserdesignator_01_khk_F";
+
+comment "Add items";
+this linkItem "ItemCompass";
+this linkItem "tf_microdagr";
+this linkItem "B_UavTerminal";
+
+comment "Set identity";
+this setFace "GreekHead_A3_03";
+this setSpeaker "ACE_NoVoice";

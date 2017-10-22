@@ -1,0 +1,14 @@
+1. town marker array
+2. spawn ai script
+3. spawn cache script
+4. spawn ai around cache script
+5. cleanup script
+
+
+other
+- respawn vehicles (cleanup vehicles)
+- cleanup weapon piles on ground
+- base ammo box
+- base defenders
+- TP to squad (FOB)
+- bonus gadgets for victory?
