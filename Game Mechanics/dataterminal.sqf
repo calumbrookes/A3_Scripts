@@ -19,7 +19,7 @@ _object removeaction _id;
 [_object,3] call BIS_fnc_dataTerminalAnimate;
 sleep 2;
 with uiNamespace do {
-     disableserialization; //thank you so much tankbuster
+     disableserialization;
     _object setObjectTexture [0,"\A3\Missions_F_EPA\video\A_in_intro.ogv"]; 
     1100 cutRsc ["RscMissionScreen","PLAIN"];
     _scr = BIS_RscMissionScreen displayCtrl 1100;
